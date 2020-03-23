@@ -10,5 +10,6 @@ class Lucid < Formula
 
   def install
     bin.install "lucid"
+    system "chmod", "+x", "#{bin}/lucid"
   end
 end
